@@ -14,7 +14,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.cs407.helloworld.ui.theme.HelloWorldTheme
 
 class MainActivity : ComponentActivity() {
-    private lateinit var imgView: ImageView
+    private lateinit var imgView: ImageView // img view
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
